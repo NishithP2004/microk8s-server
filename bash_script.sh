@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo apt update -y
-sudo snap install microk8s --classic -y
+sudo snap install microk8s --classic
 sudo microk8s status --wait-ready
 sudo microk8s enable dashboard
 sudo microk8s enable dns
